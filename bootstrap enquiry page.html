@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>My Basic Page</title>
+    <style>
+      .row.content {
+        height:1500px;
+      }
+      .sidenav {
+        background-color:#f1f1f1;
+        height:100%;
+      }
+     footer {
+       background-color:#555;
+       color:white;
+       paddding:15px;
+     }
+     @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 12px;
+      }
+     .row.content {
+       height:auto;
+     }
+     table,tr,th {
+       border-collapse:collapse;
+       border: 8px solid black;
+       padding:8px;
+       text-align:left;
+       line-height:50px;
+    }
+    .mango {
+  background-color: lightgrey;
+  width: 100px;
+  border: 2px solid ;
+  padding: 5px;
+  margin: 5px;
+  position: fixed;
+  top: 14;
+  right: 0;
+    }
+
+    </style>
+  </head>
+   <body>
+     <div class="jumbotron text-center" style="background-color:aqua;margin-botton:0;">
+       <h1 style="color:blue">Prognoz Technology Pvt.Ltd</h1>
+       <p><i>An ISO 9001-2015 Company</i></p>
+        </div>
+
+    <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav">
+        <h4 style="text-align:center">Prognoz</h4>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="tab" href="#section1">Enquiry Details</a></li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#section2">Student Registraction</a></li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#section3">About Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#section4">Contact Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#section5">Placements</a></li>
+         </ul><br>
+
+         <div class="input-group">
+           <input type="text" class="form-control" placeholder="Search Blog">
+           <span class="input-group-btn">
+             <button class="btn btn-default" type="button">
+               <span class="glyphicon glyphicon-search"></span>
+             </button>
+           </span>
+         </div>
+         </div>
+
+  <div class="col-sm-9">
+     <div class="tab-content">
+       <div id="section1" class="container-fluid tab-pane active"><br>
+      <h2 style="text-align:center">Enquiry Form:</h2><p style="border-bottom-style:solid"></p>
+      <p style="float:right;margin-right:70px;"><b>Date:_________</b></p>
+      <p style="float:left;margin-left:10px;"><b>Personal Detail: </b></p><br><br>
+    <div class="row">
+      <div class="col-sm-4">First Name:____________________</div>
+      <div class="col-sm-4">Middle Name:____________________</div>
+      <div class="col-sm-4">Last Name:____________________</div><hr>
+      <div class="col-sm-6">Date of birth:_________________________________________</div>
+      <div class="col-sm-6">Gender:____________________________________________</div><hr>
+      <div class="col-sm-6">Email-ID:____________________________________________</div>
+      <div class="col-sm-6">Mobile Number:______________________________________</div><hr>
+      <div class="col-sm-6">Emergency Contact Name :______________________________</div>
+      <div class="col-sm-6">Emergency No:______________________________________</div><hr>
+      <div class="col-sm-6">Remark:_____________________________________________</div><hr>
+    </div><hr><br><br>
+
+    <p style="float:right;margin-right:70px;"><b>Source Name:_________</b></p>
+    <p style="float:left;margin-left:0px;"><b>Source:</b>Call/Friend/Internet/email/Newspaper/AnyOther </p><br><br>
+    <p><b>Academics:</b></p>
+    <table style="width:100%">
+    <tr>
+     <th>Exam passed</th>
+     <th>College /School</th>
+    <th>Appeared / Passed</th>
+    <th>Year</th>
+    <th>Secured position with %</th>
+    </tr>
+    <tr>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>____________________</td>
+    </tr>
+    <tr>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>____________________</td>
+    </tr>
+    <tr>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>____________________</td>
+    </tr>
+    <tr>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>_________________</td>
+    <td>____________________</td>
+    </tr>
+  </table><hr><br>
+  <p>Other Qualification (if Any)...................................................................................... </p>
+  <p>Professional Status:Working / Student / Unemployed / Any Other.................................................... </p>
+  <b>For Office use Only</b><br>
+  <p>Enquiry No:________________________________ </p>
+  <p style="float:right">PTCP (Java / .Net / Web / Testing / Other)_____ </p>
+  <p>PSEP (Java / .Net / Web / Testing / Other)_________</p>
+  <p style="float:right">PJIC____________________ </p>
+  <p>PSEP (Java / .Net / Web / Testing / Other)_________</p>
+  <p>PITP_____________________________________ </p>
+  <p style="float:right">Others____________________ </p>
+  <br><hr>
+  <p><b>Remarks:</b>______________________________________________ </p>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="section2" class="container-fluid tab-pane fade"><br>
+      <img src="logo.jpg" alt="D:\Web Devlopment\html outputs\my programs\Bootstrap" width="40" height="35">
+      <p style="float:right;margin-right:8px;">Affix recent passport<br> size phototgraph</p>
+      <h2 style="text-align:center;:27px">Prognoz Technologies Pvt.Ltd.</h2>
+      <h3 style="text-align:center;"><i>Admission Form</i></h3><br><br>
+
+
+      <p>Name: (In Block Letters)</p>
+      <div class="row">
+      <div class="col-sm-4">First Name:</div>
+      <div class="col-sm-4">Middle Name:</div>
+      <div class="col-sm-4">Last Name:</div><hr>
+      </div>
+
+      <p style="float:right;">Date of Birth:&#10066;&#10066; &#10066;&#10066; &#10066;&#10066;&#10066;&#10066;</p>
+      <p>Gender:&#10066;Male &#10066;Female</p>
+      <p>Father / Husband's Name:......................................................................................
+      .................................................................................................. </p>
+      <p>Father's Occupation.......................................................... Mobile Number.......................
+      ...................................................................................... </p>
+      <p>Mother's Name................................................................. Mobile Number.......................
+      .................................................................................... </p>
+      <p>Address Permanent....................................................................
+      .......................................................................................................................... <br>
+      ............................................................................................................
+      ................................................................................... </p>
+      <p>Temporary........................................................................................................
+      ........................................................................................................ <br>
+      ............................................................................................................
+      ........................................................................................ </p>
+      <p>Mobile Number:...............................................................................................
+      ........................................................................................................ </p>
+      <p>Email Address:...............................................................................................
+      ........................................................................................................... </p>
+      <p>Academic Qualification:</p>
+      <table style="width:100%">
+      <tr>
+       <th>Exam passed</th>
+       <th>Board /University</th>
+      <th>Appeared / Passed</th>
+      <th>year</th>
+      <th>Secured position with %</th>
+      </tr>
+      <tr>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>____________________</td>
+      </tr>
+      <tr>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>____________________</td>
+      </tr>
+      <tr>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>____________________</td>
+      </tr>
+      <tr>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>_________________</td>
+      <td>____________________</td>
+      </tr>
+    </table><hr>
+
+    <p>Other Qualification(If any).....................................................................................
+    ................................................................................................................... </p>
+    <p>The statement made above & filled in are true to the best of my knowlwdge.I fully understand everything and i have
+    personally filled up the details.I will obey the rules and regulation as said by prognoz time to time.</p><br><br>
+    <p>Date:</p>
+    <p style="float:right;">Signature of student</p><br>
+    <b>For Office use Only</b><br>
+    <p style="float:right">Regn NO___________________________ </p>
+    <p>Date of Addmission__________________________ </p>
+    <p style="float:right">programme / Course____________________ </p>
+    <p>Enquiry No.________________________________</p>
+    <p style="float:right">Total course Fees(Rs)____________________ </p>
+    <p>Payment mode_____________________________</p>
+    <p style="float:right">Balance fees(Rs)____________________ </p>
+    <p>Fees paid during Registraction_________________ </p>
+    <p style="float:right">Balance fees(Rs)____________________ </p>
+    <p>Remarks__________________________________ </p>
+    <p style="float:right">Balance fees(Rs)____________________ </p>
+    <p>Batch Name_______________________________ </p><hr>
+
+    <p>PTPL/A Admission form / Ver 2.0</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="section3" class="container-fluid tab-pane fade"><br>
+       <h3>About  Us</h3>
+       <h4>Vision & Mission</h4>
+       <h5>Vision:</h5>
+        <p>To become the leader in enhancing the employability skills and providing the industry
+        with targeted and productive manpower.</p>
+       <h5>Mission:</h5>
+       <p>Providing content rich learning programs and interactions to Individuals, that are Innovative, Insightful,
+        Transforming, Empowering and helping them to identify their uniqueness and strengths and putting them to best
+        possible use, with a definite sense of purpose.</p>
+       <h3>Our Team</h3>
+        <h5>Vikash Swaroopa - Director</h5>
+        <p>Vikash is a seasoned IT professional with more than 32 years of experience with Indian and Foreign multinational
+        IT companies. He has Master degree in Engineering and Diploma in Systems Engineering from Japan. He also has many
+        other national and international certifications in different areas of IT. He is extremely passionate about teaching
+        and mentoring people and this passion has culminated into full time training business for him. His other interests are
+        travelling, cricket and reading. He believes No training is complete unless validated and results achieved</p>
+       <h5>G.S. Mohapatra - Business Head</h5>
+       <p>A thorough professional with 30+ years of experience in IT industry in various capacities such as Delivery Head,
+        Program & Project Management. He has the distinction of managing multiple deliveries for multiple technology projects,
+        right from presale support to Delivery Management, Billing and Invoicing</p>
+        <h3>Our Advisors</h3>
+        <h5>V. Raghvendra Prasad</h5>
+        <p><b>Director & CEO Wifin Technologies Pvt. Ltd.</b></p>
+        <p>Prasad is the Managing Director of Wifin Technologies Pte Ltd- a mobile applications and e-learning company at Singapore with its
+           Development Centre at Chennai, India -that has been angel funded by a Singapore based investment company and
+           has been nominated by NASSCOM as one of the "Showcase Companies for IT Innovation" in India in 2005</p>
+        <h3>COMPANY PROFILE</h3>
+        <p>Incorporated in 2011, Prognoz is a private limited company and focuses on providing employability skills and enhancing
+          the soft skills and the technical skills of school dropouts to technical graduates and working professionals,
+           through our meticulously design courses, established skill development processes and competent faculties.</p>
+        <p>The company is ISO 9001:2015 certified and led by highly qualified and experienced team who is passionate about teaching
+          and mentoring. Our skill development process constitutes of uniquely blended training programs of
+          technical and soft skills which transforms a trainee to become employable and to take real life challenges in industries.</p>
+          <h3>Infrastructure</h3>
+          <p><b>Navi Mumbai</b></p>
+          <p>Located in the commercial hub of Vashi in Navi Mumbai and very near to Vashi railway station and surrounded by Malls,
+             Cinema Halls, Restaurants and Shops. The infrastructure consists of state of the art Audio Visual equipped air conditioned
+             training rooms with high end PCs. We also provide hostel facilities for outstation candidates.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="section4" class="container tab-pane fade"><br>
+
+   <h2>Contact Us:</h2>
+   <h4>Navi Mumbai</h4>
+   <p>S-186 & S-184A, Haware Fantasia Business Park,<br>
+    Sector 30A, Vashi (Near Vashi Railway Station),<br>
+    Navi Mumbai - 400 703, Maharashtra,India.<br>
+    Tel: +91-22-27814262 | Mob: +91-8454071212<br>
+    Email: <a href="#" class="text-danger">info@prognoztech.com</a></p>
+   <h4>Mumbai (Western)</h4>
+   <p>103, B-14, Moxa Co.Op. Housing Soc., Station Road,<br>
+    Mira Road (E) - 401 107,<br>
+    Thane, India.<br>
+    Mob: +91-7777047155<br>
+    Email: <a href="#" class="text-danger">mumbai@prognoztech.com</a></p>
+   <h4>Noida (New Delhi)</h4>
+   <p>A44A, Ground Floor, Sector 16<br>
+     Behind McDonalds<br>
+     Noida, U.P. - 201 301,India.<br>
+     Mob: +91-9643261252<br>
+     Email:<a href="#" class="text-danger">noida@prognoztech.com</a></p>
+     <h4>Patna</h4>
+     <p>Arya Kumar Road, Near State Bank of India<br>
+     Rajendra Nagar, Patna - 800 016,<br>
+     Bihar, India.<br>
+     Mob: 9892582661, 8369514677<br>
+     Email: <a href="#" class="text-danger">patna@prognoztech.com</a></p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="section5" class="container-fluid tab-pane fade"><br>
+      <h2>Placements</h2>
+      <h4>Placements</h4>
+      <p>We have a dedicated team of qualified HR personnel who leave no stone unturned in getting jobs to our trainees.
+        These competent consultants are in constant touch with recruiting companies and coordinate between the trainees and
+        the recruiting companies. The prime objective of this team is to ensure that each of our passed out trainees gets job
+        in minimum time.</p>
+        <p>Prognoz has tieups with more than 600 IT companies.</p>
+        <h3>Placement List (Partial)</h3>
+        <table class="table table-bordered table-dark table-striped">
+        <thead class="thead-light">
+          <tr>
+            <th>Trainee Name</th>
+            <th>Qualification</th>
+            <th>College Name</th>
+            <th>Comapany</th>
+            <th>Designation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natasha Daphale</td>
+            <td>BE (CS)</td>
+            <td>DMCE</td>
+            <td>Capgemini</td>
+            <td>Java Developer </td>
+          </tr>
+          <tr>
+            <td>Priya Sonar</td>
+            <td>BE(IT)</td>
+            <td> COE</td>
+            <td>Infosys</td>
+            <td>Java Developer </td>
+          </tr>
+          <tr>
+            <td>Rohan Gunjal</td>
+            <td>B.Sc.(IT)</td>
+            <td>PVG CST</td>
+            <td>Nucsoft</td>
+            <td>Dotnet Developer </td>
+          </tr>
+          </tbody>
+        </table><br><br>
+
+     <h3>Candidates successfully trained & placed in following IT companies</h3>
+       <table class="table table table-bordered table-dark table-striped">
+       <tbody>
+         <tr>
+           <td>Capgemini</td>
+           <td>Tata Consultancy Services</td>
+           <td>Tata Interactive Systems</td>
+         </tr>
+         <tr>
+           <td>L&T Infotech</td>
+           <td>Syntel</td>
+           <td>HCL Technologies</td>
+         </tr>
+         <tr>
+           <td>Hexaware Technologies</td>
+           <td>Reliance Jio</td>
+           <td>XL Dynamics</td>
+         </tr>
+         <tr>
+           <td> 	QualityKiosk Technologies</td>
+           <td> 	Ness Technologies</td>
+           <td> 	Igate Patni</td>
+         </tr>
+        </tbody>
+        </table>
+
+    </div>
+
+
+
+
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  </body>
+</html>
